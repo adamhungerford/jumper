@@ -1,0 +1,169 @@
+* {
+	margin: auto;
+	font-family: Arial;
+	font-size: 16px;
+}
+@font-face {
+	font-family: Nebulous;
+	src: url(NebulousRegular-54aV.ttf);
+}
+html{
+	background-color: #ebf0f7;
+	overflow: auto;
+}
+header{
+	margin-bottom: 2%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+h1{
+	font-family: Nebulous;
+	font-weight: normal;
+	font-size: 32px;
+	text-align: center;
+}
+h4 {
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+}
+body{
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: white;
+	overflow: auto;
+}
+button {
+	background-color: black;
+	border-style: none;
+	color: white;
+	font-family: Nebulous;
+	font-variant: small-caps;
+}
+#dealer{
+	padding-bottom: 1%;
+}
+#rules{
+	float: none;
+	clear: both;
+	margin-top: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#card{
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	height: 266px;
+	width: 200px;
+	position: relative;
+	float: left;
+	clear: left;
+	margin-left: 15%;
+	margin-right: 1%;
+}
+#dice{
+	float: right;
+	clear: right;
+	margin-right: 15%;
+	margin-left: 1%;
+	width: 35%;
+}
+#dOne, #dTwo{
+	border: 2px solid black;
+	border-radius: 5px;
+	overflow: hidden;
+}
+#dOne{
+	float: left;
+	clear: left;
+}
+#dTwo{
+	float: right;
+	clear: right;
+}
+#thedice{
+	width: 215px;
+}
+#rules{
+	clear: left;
+}
+#nameleft,#nameright{
+	font-variant: small-caps;
+	padding: 5px;
+	font-family:  Nebulous;
+}
+#nameright{
+	float: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#nameleft{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#place, #mien{
+	position: relative;
+	top: 40%;
+	bottom: 40%;
+	text-align: center;
+}
+.important{
+	font-size: 20px;
+	font-variant: small-caps;
+	font-family: Nebulous;
+}
+#mission{
+	text-align: center;
+	clear: both;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+#fuel{
+	font-style: italic;
+}
+hr{
+	clear: both;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: #ebf0f7;
+}
+a{
+	color: grey;
+	text-decoration: none;
+}
+#rules{
+	margin-top: 2%;
+}
+footer{
+	margin: 2%;
+	text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+	body {
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		background-color: white;
+		border: none;
+	}
+	html{
+		background-color: white;
+	}
+	#card{
+		float: none;
+		clear: both;
+		margin:auto;
+	}
+	#dice{
+		float: none;
+		clear: both;
+		margin: auto;
+		margin-top: 2%;
+		width: 70%;
+	}
+}
