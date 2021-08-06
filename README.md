@@ -6,4 +6,4 @@ I worked on Jumper for about three days in August. My goal was to explore the po
 - use mobile-first design to create an intuitive document
 - stay true to my commitments to accessibility 
 
-I'm quite proud of this piece, even if it's small. 
+I'm quite proud of this piece, even if it's small. See the finished product [here](https://adamhungerford.github.io/jumper/).
