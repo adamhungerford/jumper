@@ -5,4 +5,5 @@ I worked on Jumper for about three days in August. My goal was to explore the po
 - utilize JavaScript's power to create dynamic decks of cards and dice
 - use mobile-first design to create an intuitive document
 - stay true to my commitments to accessibility 
+
 I'm quite proud of this piece, even if it's small. 
